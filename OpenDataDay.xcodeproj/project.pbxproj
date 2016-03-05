@@ -15,6 +15,7 @@
 		0786472D1C8A4F8200E2A850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0786472B1C8A4F8200E2A850 /* LaunchScreen.storyboard */; };
 		078647381C8A4F8200E2A850 /* OpenDataDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078647371C8A4F8200E2A850 /* OpenDataDayTests.m */; };
 		078647431C8A4F8200E2A850 /* OpenDataDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078647421C8A4F8200E2A850 /* OpenDataDayUITests.m */; };
+		078647511C8A4FEC00E2A850 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078647501C8A4FEC00E2A850 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0786473E1C8A4F8200E2A850 /* OpenDataDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenDataDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078647421C8A4F8200E2A850 /* OpenDataDayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDataDayUITests.m; sourceTree = "<group>"; };
 		078647441C8A4F8200E2A850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078647501C8A4FEC00E2A850 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078647511C8A4FEC00E2A850 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		078647111C8A4F8200E2A850 = {
 			isa = PBXGroup;
 			children = (
+				078647501C8A4FEC00E2A850 /* MapKit.framework */,
 				0786471C1C8A4F8200E2A850 /* OpenDataDay */,
 				078647361C8A4F8200E2A850 /* OpenDataDayTests */,
 				078647411C8A4F8200E2A850 /* OpenDataDayUITests */,
